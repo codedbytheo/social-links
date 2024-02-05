@@ -30,7 +30,7 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	min-height: 100dvh;
 }
 main {
 	width: 100%;
@@ -39,7 +39,7 @@ main {
 .socialCard {
 	background-color: var(--darkGrey);
 	border-radius: 10px;
-	padding: 1.5rem;
+	padding: 2rem;
 	text-align: center;
 	width: 100%;
 }
@@ -47,7 +47,7 @@ main {
 	margin-bottom: 1.5rem;
 }
 .imageContainer img {
-	width: 120px;
+	width: 100px;
 	border-radius: 50%;
 }
 .detailsContainer h1 {

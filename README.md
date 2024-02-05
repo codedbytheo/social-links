@@ -4,8 +4,8 @@
 
 ## Links
 
--   [Frontend Mentor Solution]()
--   [GitHub Pages Site]()
+-   [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/social-links-solution-dQbIyj4BPM)
+-   [GitHub Pages Site](https://codedbytheo.github.io/social-links/)
 
 ## Built with
 
