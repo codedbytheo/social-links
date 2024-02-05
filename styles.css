@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+	/* primary colors */
+	--green: hsl(75, 94%, 57%);
+	/* neutral colors */
+	--white: hsla(0, 0%, 100%, 0.85);
+	--grey: hsl(0, 0%, 20%);
+	--darkGrey: hsl(0, 0%, 12%);
+	--offBlack: hsl(0, 0%, 8%);
+}
+html {
+	font-size: 14px;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Inter", sans-serif;
+	color: var(--white);
+}
+/* page styling below */
+body {
+	background-color: var(--offBlack);
+	padding: 1rem;
+	width: 100%;
+	height: 100%;
+}
+main {
+	width: 100%;
+	max-width: 330px;
+	margin: 0 auto;
+}
+.socialCard {
+	background-color: var(--darkGrey);
+	border-radius: 10px;
+	padding: 1.5rem;
+	text-align: center;
+	width: 100%;
+}
+.imageContainer {
+	margin-bottom: 1.5rem;
+}
+.imageContainer img {
+	width: 100px;
+	border-radius: 50%;
+}
+.detailsContainer h1 {
+	font-size: 1.75rem;
+	font-weight: 500;
+}
+.detailsContainer h2 {
+	color: var(--green);
+	font-size: 0.8rem;
+	margin-top: 0.35rem;
+}
+.detailsContainer p {
+	color: hsla(0, 0%, 100%, 0.8);
+	margin-top: 2rem;
+}
+.linksContainer {
+	margin-top: 1.25rem;
+}
+.linksContainer a {
+	font-weight: 600;
+	display: block;
+	padding: 12.5px 0px;
+	background-color: var(--grey);
+	border-radius: 5px;
+	transition: 0.2s all ease-in-out;
+}
+.linksContainer a:not(:last-child) {
+	margin-bottom: 1rem;
+}
+.linksContainer a:hover {
+	background-color: var(--green);
+	color: var(--darkGrey);
+}
